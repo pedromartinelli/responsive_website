@@ -36,7 +36,7 @@ export function NavBar() {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal text-white text-base ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+            className={`font-poppins font-normal text-white text-base ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} hover:text-opacity-70 hover:scale-105 transition-all`}
           >
             <a href={`#{nav.id}`}>
               {nav.title}
@@ -63,7 +63,7 @@ export function NavBar() {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal text-white text-base ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
+                className={`font-poppins font-normal text-white text-base ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} hover:text-opacity-70 hover:scale-105 transition-all duration-1000 ease-in-out`}
               >
                 <a href={`#{nav.id}`}>
                   {nav.title}
