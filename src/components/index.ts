@@ -3,7 +3,6 @@ import { Hero } from "./Hero";
 import { Stats } from "./Stats";
 import { Footer } from "./Footer";
 import { Button } from "./Button";
-import { Header } from "./Header";
 import { NavBar } from "./NavBar";
 import { Billing } from "./Billing";
 import { Clients } from "./Clients";
@@ -19,7 +18,6 @@ export {
   Stats,
   Footer,
   Button,
-  Header,
   NavBar,
   Billing,
   Clients,

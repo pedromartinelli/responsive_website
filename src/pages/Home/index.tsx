@@ -1,26 +1,27 @@
 import { NavBar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from '../../components'
 
-import { Container, Section } from "./styles"
+import { Container, Section, Div, Header } from "./styles"
 
 export function Home() {
   return (
     <Container>
-      <div className='px-6 sm:px-16 flex justify-center items-center'>
-        <div className='w-full xl:max-w-[1280px]'>
+      <Header >
+        <Div>
           <NavBar />
-        </div>
-      </div>
+        </Div>
+      </Header>
 
       <Section>
-        <div className="w-full xl:max-w-[1280px]">
+        <Div >
           <Hero />
-        </div>
+        </Div>
       </Section>
 
-      <Section className="px-6 sm:px-16">
-        <div className="w-full xl:max-w-[1280px]">
-
-        </div>
+      <Section>
+        <Div >
+          <Stats />
+          <Business/>
+        </Div>
       </Section>
     </Container>
   )
