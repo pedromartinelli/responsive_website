@@ -20,7 +20,9 @@ export function Home() {
       <Section>
         <Div >
           <Stats />
-          <Business/>
+          <Business />
+          <Billing />
+          <CardDeal />
         </Div>
       </Section>
     </Container>

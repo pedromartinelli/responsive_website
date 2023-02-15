@@ -22,6 +22,11 @@ export const Section = tw.section`
   flex
   justify-center
   items-start
+
+  px-6 
+  xl:px-0 
+  sm:px-16  
+
 ` 
 
 export const Div = tw.div`

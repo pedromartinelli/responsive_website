@@ -5,7 +5,8 @@ export const Container = tw.div`
   flex-col
   md:flex-row
 
-  py-6 sm:py-16
+  py-6 
+  sm:py-16
 `
 export const MainDiv = tw.div`
   flex-1 
@@ -15,9 +16,6 @@ export const MainDiv = tw.div`
   justify-center 
   items-start 
  
-  px-6 
-  xl:px-0 
-  sm:px-16
 `
 export const DiscountDiv = tw.div`
   flex 

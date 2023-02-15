@@ -10,7 +10,7 @@ export function Business() {
     <Container id='features'>
       <TitleDiv>
         <H2>
-          You do the business, <br className='hidden sm:block' /> we'll handle the name
+          You do the business, <br className='hidden sm:block' /> we'll handle the money.
         </H2>
 
         <P>

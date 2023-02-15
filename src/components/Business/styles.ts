@@ -18,16 +18,11 @@ export const TitleDiv = tw.div`
   items-center
   xs:items-start
 
-  px-6 
-  xl:px-0 
-  sm:px-16
 `
 
 // text-center
 // xs:text-left
-export const H2 = tw.h2`
-  w-full
- 
+export const H2 = tw.h2` 
   font-poppins
   font-semibold
   text-white
@@ -61,7 +56,7 @@ export const FeaturesDiv = tw.div`
   items-center
 
   ml-0 
-  md:ml-10 
+  md:ml-32 
   
   mt-10 
   md:mt-0
@@ -70,6 +65,8 @@ export const FeaturesDiv = tw.div`
 `
 
 export const FeatureCard = tw.div`
+  max-w-[480px]
+
   flex
   flex-row
 
