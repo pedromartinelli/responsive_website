@@ -14,6 +14,11 @@ export const Container = tw.button`
 
   bg-blue-gradient
 
+  hover:scale-105
+  hover:opacity-90
+  transition-all
+  duration-300
+
   rounded-xl
 `
 

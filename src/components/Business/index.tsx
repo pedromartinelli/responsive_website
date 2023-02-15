@@ -1,8 +1,6 @@
 import { features } from '../../constants'
 import { Button } from '../Button'
 
-import { star, shield, send } from '../../assets'
-
 import { Container, TitleDiv, H2, P, FeaturesDiv, FeatureCard } from './styles'
 
 export function Business() {

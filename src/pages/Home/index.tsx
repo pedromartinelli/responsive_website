@@ -23,6 +23,8 @@ export function Home() {
           <Business />
           <Billing />
           <CardDeal />
+          <Testimonials />
+          <Clients />
         </Div>
       </Section>
     </Container>

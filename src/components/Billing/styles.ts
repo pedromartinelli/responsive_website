@@ -9,7 +9,6 @@ export const Container = tw.div`
   sm:py-16 
 
   `
-   
 
 export const TextDiv = tw.div`
   flex-1 
