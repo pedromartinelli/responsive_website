@@ -5,7 +5,7 @@ import { Container, Section, Div, Header } from "./styles"
 export function Home() {
   return (
     <Container>
-      <Header >
+      <Header>
         <Div>
           <NavBar />
         </Div>
@@ -25,8 +25,11 @@ export function Home() {
           <CardDeal />
           <Testimonials />
           <Clients />
+          <CTA />
         </Div>
       </Section>
+
+      <Footer />
     </Container>
   )
 }

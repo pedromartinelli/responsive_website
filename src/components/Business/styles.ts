@@ -17,7 +17,6 @@ export const TitleDiv = tw.div`
   justify-center
   items-center
   xs:items-start
-
 `
 
 // text-center

@@ -1,8 +1,13 @@
 import tw from 'tailwind-styled-components'
 
+// items-center
+// justify-center
 export const Container = tw.div`
   flex
+  
+
   flex-col
+  relative
 
   py-6
   sm:py-16 
@@ -11,6 +16,7 @@ export const Container = tw.div`
 export const TextDiv = tw.div`
   flex-1 
   flex
+  
   flex-col
   md:flex-row
   
@@ -19,6 +25,8 @@ export const TextDiv = tw.div`
   items-center
 
   pr-12
+
+  z-[1]
 `
 
 export const H2 = tw.h2`

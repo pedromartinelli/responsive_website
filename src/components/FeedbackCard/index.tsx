@@ -5,7 +5,6 @@ import { feedbacks } from '../../constants'
 import { Container, Card } from './styles'
 
 export function FeedbackCard() {
-  console.log(feedbacks.length - 1)
   return (
     <Container>
 
@@ -15,7 +14,7 @@ export function FeedbackCard() {
           className={`${index === 0 ? 'mt-10' : 'mt-5'} ${index !== feedbacks.length - 1 ? 'mr-0' : 'mr-6'}`}
         >
           <img src={quotes} alt="quote" className='w-[42px] h-[27px]' />
-          <p className='font-poppins text-[18px] leading-[32px] text-white mb-6 mt-10 h-[128px]'>{feedback.content}</p>
+          <p className='font-poppins text-[18px] leading-[32px] text-white mb-6 mt-10 h-auto'>{feedback.content}</p>
 
           <div className='flex items-center justify-center gap-4'>
             <img src={feedback.img} alt="image profile" className='w-12 h-12' />

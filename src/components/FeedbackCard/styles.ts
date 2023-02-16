@@ -6,6 +6,7 @@ export const Container = tw.div`
   flex
   flex-col
   md:flex-row
+  flex-wrap
 
   justify-between
   items-center
@@ -15,7 +16,7 @@ export const Container = tw.div`
 
 export const Card = tw.div`
   max-w-[370px]
-  h-[395px]
+  h-auto
 
   md:mt-20
 

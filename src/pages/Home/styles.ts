@@ -26,7 +26,6 @@ export const Section = tw.section`
   px-6 
   xl:px-0 
   sm:px-16  
-
 ` 
 
 export const Div = tw.div`
