@@ -1,12 +1,11 @@
 import tw from 'tailwind-styled-components'
 
+// flex
+// items-center
+// justify-center
 export const Container = tw.footer`
-  flex
-  items-center
-  justify-center
 
   flex-col
-  md:flex-row
 
   py-6
   sm:py-16
