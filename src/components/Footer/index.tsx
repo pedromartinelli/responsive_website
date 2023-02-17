@@ -37,7 +37,7 @@ export function Footer() {
       <hr className='border-t-dimWhite opacity-40 my-6 md:my-10' />
 
       <div className='flex items-center justify-center md:justify-between flex-col md:flex-row w-full mb-20 md:mb-0'>
-        <div className='flex flex-col md:flex-row items-center ml-4 mb-4'>
+        <div className='flex flex-col md:flex-row items-center ml-4 md:ml-0 mb-4'>
           <span className='font-poppins text-[16px] leading-[24px] text-dimWhite mr-[16px]'>Copyright &copy;</span>
           <span className='font-poppins text-[16px] leading-[24px] text-dimWhite'>2021 HooBank. All Rights Reserved.</span>
         </div>
